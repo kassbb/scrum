@@ -33,4 +33,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run test
-        run: pytest apps/**/tests.py
+        run: pytest apps/**/tests/
