@@ -1,4 +1,4 @@
 [flake8]
 exclude =  .git, __pycache__,env,srumenv, migrations, manage.py
 max-line-length = 88
-ignore = E501,W503,F403,F405
+ignore = E501,W503,F403,F405,F401
