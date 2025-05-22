@@ -34,3 +34,5 @@ jobs:
           pip install -r requirements.txt
       - name: Run test
         run: pytest apps/**/tests/
+      - name: run flake8
+        run: flake8
